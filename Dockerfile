@@ -4,7 +4,6 @@ MAINTAINER SequenceIQ
 RUN curl -s http://public-repo-1.hortonworks.com/HDP-LABS/Projects/spark/1.1.0/spark-1.1.0.2.1.5.0-702-bin-2.4.0.2.1.5.0-695.tgz | tar -xz -C /usr/local/
 RUN cd /usr/local && ln -s spark-1.1.0.2.1.5.0-702-bin-2.4.0.2.1.5.0-695 spark
 RUN curl -o /usr/local/spark/lib/spark-native-yarn-samples-1.0.jar https://s3-eu-west-1.amazonaws.com/seq-tez/spark-native-yarn-samples-1.0.jar
-RUN mkdir -p /usr/local/spark/yarn-remote-client
 
 ENV SPARK_HOME /usr/local/spark
 
