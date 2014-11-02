@@ -7,17 +7,17 @@ This Docker image depends on our previous [Hadoop Docker](https://github.com/seq
 
 ##Pull the image from Docker Repository
 ```
-docker pull sequenceiq/spark-native-yarn:1.1.0
+docker pull sequenceiq/spark-native-yarn
 ```
 
 ## DIY - Building the image
 ```
-docker build --rm -t sequenceiq/spark-native-yarn:1.1.0 .
+docker build --rm -t sequenceiq/spark-native-yarn
 ```
 
 ## Running the image
 ```
-docker run -i -t -h sandbox sequenceiq/spark-native-yarn:1.1.0 /etc/bootstrap.sh -bash
+docker run -i -t -h sandbox sequenceiq/spark-native-yarn /etc/bootstrap.sh -bash
 ```
 
 ## Versions
