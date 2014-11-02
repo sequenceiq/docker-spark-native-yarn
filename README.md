@@ -22,5 +22,16 @@ docker run -i -t -h sandbox sequenceiq/spark-native-yarn /etc/bootstrap.sh -bash
 
 ## Versions
 ```
-Hadoop 2.5.1 and Apache Spark v1.1.0 and Apache Tez
+Hadoop 2.5.1 and Apache Spark 1.1.0 and Apache Tez 0.5
+
 ```
+
+##Testing
+
+After yu have run the image you are ready to start playing wint Spark on YARN, an using Tez as the execution context.
+
+```
+cd /usr/local/spark
+spark-submit --class org.apache.spark.examples.SparkPi --master execution-context:org.apache.spark.tez.TezJobExecutionContext --conf update-classpath=true ./lib/spark-examples-1.1.0.2.1.5.0-702-hadoop2.4.0.2.1.5.0-695.jar
+```
+
