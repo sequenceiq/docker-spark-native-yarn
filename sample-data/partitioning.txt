@@ -1,0 +1,21 @@
+10:06:44  [SAMPLE] WARN ContainersLauncher #1 util.NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+10:06:45  [SAMPLE] WARN ContainersLauncher #1 impl.MetricsConfig:124 - Cannot locate configuration: tried hadoop-metrics2-dagappmaster.properties,hadoop-metrics2.properties
+10:06:45  [SAMPLE] WARN ContainersLauncher #1 util.MBeans:64 - Failed to register MBean "Hadoop:service=DAGAppMaster,name=MetricsSystem,sub=Stats": Instance already exists.
+10:06:45  [SAMPLE] WARN ContainersLauncher #1 util.MBeans:64 - Failed to register MBean "Hadoop:service=DAGAppMaster,name=UgiMetrics": Instance already exists.
+10:06:45  [SAMPLE] WARN ContainersLauncher #1 util.MBeans:64 - Failed to register MBean "Hadoop:service=DAGAppMaster,name=MetricsSystem,sub=Control": Instance already exists.
+10:06:45  [SAMPLE] WARN ContainersLauncher #1 common.TezUtilsInternal:172 - Not configured with appender named: CLA. Cannot reconfigure logger output
+10:06:49  [SAMPLE] WARN ContainersLauncher #2 util.NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+10:06:50  [SAMPLE] WARN ContainersLauncher #3 util.NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+10:06:50  [SAMPLE] WARN ContainersLauncher #2 impl.MetricsConfig:124 - Cannot locate configuration: tried hadoop-metrics2-teztask.properties,hadoop-metrics2.properties
+10:06:50  [SAMPLE] WARN ContainersLauncher #3 impl.MetricsConfig:124 - Cannot locate configuration: tried hadoop-metrics2-teztask.properties,hadoop-metrics2.properties
+10:06:50  [SAMPLE] WARN ContainersLauncher #3 util.MBeans:64 - Failed to register MBean "Hadoop:service=TezTask,name=MetricsSystem,sub=Stats": Instance already exists.
+10:06:50  [SAMPLE] WARN ContainersLauncher #3 util.MBeans:64 - Failed to register MBean "Hadoop:service=TezTask,name=UgiMetrics": Instance already exists.
+10:06:50  [SAMPLE] WARN ContainersLauncher #3 util.MBeans:64 - Failed to register MBean "Hadoop:service=TezTask,name=MetricsSystem,sub=Control": Instance already exists.
+10:06:50  [SAMPLE] WARN ContainersLauncher #2 common.TezUtilsInternal:172 - Not configured with appender named: CLA. Cannot reconfigure logger output
+10:06:50  [SAMPLE] WARN ContainersLauncher #3 common.TezUtilsInternal:172 - Not configured with appender named: CLA. Cannot reconfigure logger output
+10:06:50  [SAMPLE] INFO TezChild tez.SparkTaskProcessor:59 - Executing processor for task: 0 for DAG Join-1411740394509_1411740398778
+10:06:50  [SAMPLE] INFO TezChild tez.SparkTaskProcessor:59 - Executing processor for task: 0 for DAG Join-1411740394509_1411740398778
+10:06:50  [SAMPLE] WARN ContainersLauncher #2 common.TezUtilsInternal:172 - Not configured with appender named: CLA. Cannot reconfigure logger output
+10:06:50  [SAMPLE] WARN ContainersLauncher #2 common.TezUtilsInternal:172 - Not configured with appender named: CLA. Cannot reconfigure logger output
+10:06:50  [SAMPLE] WARN ContainersLauncher #3 common.TezUtilsInternal:172 - Not configured with appender named: CLA. Cannot reconfigure logger output
+10:06:51  [SAMPLE] INFO TezChild tez.SparkTaskProcessor:59 - Executing processor for task: 0 for DAG Join-1411740394509_1411740398778
